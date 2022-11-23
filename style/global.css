@@ -1,0 +1,14 @@
+div{
+    background-color: red;
+    width: 1440px;
+    height: 500px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
