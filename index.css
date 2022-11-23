@@ -11,19 +11,29 @@ body{
     font-size: 30px;
 }
 
+.subtitulo{
+   margin-top: 15px;
+   margin-bottom: 15px;
+   font-size: 30px; 
+}
+
 .paragrafo{
     margin-left: 20px;
     
 }
 
+.texto{
+    margin-bottom: 20px;
+}
+
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: #143A5D;
     color: #ffffff;
     padding: 1px;
 }
 
 nav{
-    background-color: rgb(0, 0, 0);
+    background-color: #143A5D;
     color: #000000;
     padding: 1px;
     padding-bottom: 8px;
@@ -33,7 +43,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: center;   
-    background-color: #000000; 
+    background-color: #143A5D; 
 }
 
 nav li > a{
@@ -45,7 +55,7 @@ nav li > a{
     color: #ffffff;
     border-bottom: 2px solid #ffffff;
     font-size: large;
-    background-color: #000000;
+    background-color: #143A5D;
     
 }
 
@@ -53,7 +63,7 @@ nav li > a{
 
 .active{
     font-weight: bold;
-    border-bottom: 2px solid #2800da;
+    border-bottom: 2px solid #CA3B21;
     transition: 1s;
     
 }
@@ -69,8 +79,8 @@ nav li > a{
 
 
 nav li > a:hover{
-    color: #2800da;
-    border-bottom: 2px solid #2800da;
+    color: #CA3B21;
+    border-bottom: 2px solid #CA3B21;
     transition: 1s;
 }
 .container{
@@ -133,7 +143,7 @@ input{
     border-radius: 0.45em;
     padding: 8px;
     text-align: center;
-    border:1px solid #2800da;
+    border:1px solid #CA3B21;
     background-color: #fcfcfc;
     
 }
@@ -142,7 +152,7 @@ button{
     width: 72%;
     border-radius: 0.45em;
     padding: 8px;
-    background-color: #2800da;
+    background-color: #CA3B21;
     outline: none;
     color: #fff;
 
